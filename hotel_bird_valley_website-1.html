@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10100f">
+<meta name="description" content="Hotel Bird Valley — explore our menu, contact us and share your experience.">
+<title>Hotel Bird Valley | Dining</title>
+<style>
+:root{--bg:#10100f;--panel:#191916;--gold:#c6a66a;--cream:#f3eee3;--muted:#b7b0a2;--line:rgba(198,166,106,.24)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Georgia,"Times New Roman",serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(16,16,15,.94);backdrop-filter:blur(12px);z-index:5}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-size:20px;letter-spacing:2px;color:var(--gold);font-weight:bold}.brand small{display:block;font:10px Arial,sans-serif;letter-spacing:4px;color:var(--muted);margin-top:4px}
+nav{display:flex;gap:22px;font:12px Arial,sans-serif;color:var(--muted)}nav a:hover{color:var(--gold)}
+.hero{min-height:480px;display:grid;place-items:center;text-align:center;padding:85px 18px;background:linear-gradient(180deg,rgba(10,10,9,.45),#10100f 96%),radial-gradient(ellipse at 50% 20%,#51442d 0,#262219 35%,#10100f 75%)}
+.eyebrow{font:11px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--gold)}
+h1{font-size:clamp(42px,8vw,78px);font-weight:normal;line-height:1.02;margin:18px 0}
+.hero p{max-width:560px;margin:0 auto 28px;color:#d0c8b9;line-height:1.7;font:15px Arial,sans-serif}
+.btn{display:inline-block;border:1px solid var(--gold);padding:13px 22px;color:var(--gold);font:11px Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase;margin:5px;transition:.2s}
+.btn.primary{background:var(--gold);color:#171510}.btn:hover{transform:translateY(-2px);background:var(--gold);color:#171510}
+section{padding:70px 0}.section-head{text-align:center;margin-bottom:34px}.section-head h2{font-size:36px;font-weight:normal;margin:10px 0}.section-head p{font:13px Arial,sans-serif;color:var(--muted);line-height:1.6}
+.menu-tabs{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:0 0 28px}
+.tab{background:transparent;border:1px solid var(--line);color:var(--muted);padding:10px 15px;cursor:pointer;font:11px Arial,sans-serif;letter-spacing:1px}
+.tab.active,.tab:hover{background:var(--gold);border-color:var(--gold);color:#171510}
+.menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.menu-item{background:var(--panel);border:1px solid rgba(255,255,255,.045);padding:20px;display:flex;justify-content:space-between;gap:14px;align-items:flex-start}
+.menu-item h3{font-size:18px;font-weight:normal;margin:0 0 7px}.menu-item p{font:12px Arial,sans-serif;color:var(--muted);line-height:1.5;margin:0}.price{color:var(--gold);font:15px Arial,sans-serif;white-space:nowrap}
+.note{text-align:center;color:var(--muted);font:11px Arial,sans-serif;margin-top:18px}
+.about{background:#151512;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.about h2{font-size:38px;font-weight:normal;margin:10px 0 16px}.about p{font:14px Arial,sans-serif;color:var(--muted);line-height:1.8}
+.info-card{border:1px solid var(--line);padding:28px;background:#11110f}.info-card div{padding:13px 0;border-bottom:1px solid var(--line);font:13px Arial,sans-serif;color:var(--muted)}.info-card div:last-child{border:0}.info-card strong{display:block;color:var(--cream);font-weight:normal;margin-bottom:5px}
+.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.action{border:1px solid var(--line);padding:25px 16px;text-align:center;background:var(--panel)}.action .symbol{font-size:23px;color:var(--gold)}.action h3{font-size:18px;font-weight:normal;margin:12px 0 7px}.action p{font:12px Arial,sans-serif;color:var(--muted);line-height:1.5}
+footer{border-top:1px solid var(--line);padding:28px 0;text-align:center;color:var(--muted);font:11px Arial,sans-serif;letter-spacing:1px}
+@media(max-width:650px){nav{gap:11px;font-size:10px}.brand{font-size:16px}.nav{height:64px}.hero{min-height:420px}.menu-grid,.about-grid,.actions{grid-template-columns:1fr}.about-grid{gap:22px}section{padding:54px 0}.menu-item{padding:17px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">HOTEL BIRD VALLEY<small>DINING & HOSPITALITY</small></a>
+  <nav><a href="#menu">MENU</a><a href="#about">ABOUT</a><a href="#visit">CONTACT</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div>
+  <div class="eyebrow">A warm welcome awaits</div>
+  <h1>Hotel Bird Valley</h1>
+  <p>Good food. Thoughtful hospitality. A place to enjoy every moment.</p>
+  <a class="btn primary" href="#menu">Explore Menu</a>
+  <a class="btn" href="#visit">Contact Us</a>
+</div></section>
+
+<section id="menu"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Freshly prepared</div><h2>Our Menu</h2><p>Explore our selection. Ask our team about today's specials.</p></div>
+  <div class="menu-tabs" role="tablist">
+    <button class="tab active" data-category="starters">STARTERS</button>
+    <button class="tab" data-category="mains">MAIN COURSE</button>
+    <button class="tab" data-category="breads">BREADS & RICE</button>
+    <button class="tab" data-category="drinks">BEVERAGES</button>
+  </div>
+  <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
+  <p class="note">Menu items and prices are sample placeholders. Please confirm availability and rates with the restaurant.</p>
+</div></section>
+
+<section class="about" id="about"><div class="wrap about-grid">
+  <div><div class="eyebrow">Our story</div><h2>Hospitality, served with care.</h2>
+  <p>Welcome to Hotel Bird Valley. We look forward to making your visit enjoyable. Add your restaurant's story, specialties and dining details here.</p></div>
+  <div class="info-card">
+    <div><strong>Location</strong>Add hotel address here</div>
+    <div><strong>Opening hours</strong>Add daily opening and closing times</div>
+    <div><strong>Reservations</strong>Contact the hotel to reserve a table</div>
+  </div>
+</div></section>
+
+<section id="visit"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Stay connected</div><h2>Visit & Connect</h2><p>We'd be happy to hear from you.</p></div>
+  <div class="actions">
+    <a class="action" id="callLink" href="tel:+910000000000"><div class="symbol">✆</div><h3>Call Us</h3><p>Tap to call the hotel</p></a>
+    <a class="action" id="waLink" href="https://wa.me/910000000000"><div class="symbol">◉</div><h3>WhatsApp</h3><p>Message us for enquiries</p></a>
+    <a class="action" id="reviewLink" href="#visit"><div class="symbol">☆</div><h3>Write a Review</h3><p>Share your experience</p></a>
+  </div>
+</div></section>
+</main>
+<footer>HOTEL BIRD VALLEY · THANK YOU FOR VISITING</footer>
+<script>
+/* EDIT THIS MENU: replace sample names, descriptions and prices with the hotel's actual menu. */
+const menu = {
+ starters:[
+  ["Soup of the Day","A freshly prepared soup selection","₹ —"],
+  ["Paneer Starter","Add your dish description here","₹ —"],
+  ["Veg Crispy","Add your dish description here","₹ —"],
+  ["Chicken Starter","Add your dish description here","₹ —"]
+ ],
+ mains:[
+  ["Paneer Main Course","Add your dish description here","₹ —"],
+  ["Seasonal Veg Curry","Add your dish description here","₹ —"],
+  ["Dal Special","Add your dish description here","₹ —"],
+  ["Chicken Main Course","Add your dish description here","₹ —"]
+ ],
+ breads:[
+  ["Butter Naan","Soft tandoor-baked bread","₹ —"],
+  ["Tandoori Roti","Whole-wheat tandoor bread","₹ —"],
+  ["Steamed Rice","Fluffy steamed rice","₹ —"],
+  ["Jeera Rice","Rice tempered with cumin","₹ —"]
+ ],
+ drinks:[
+  ["Fresh Lime Soda","Sweet or salted","₹ —"],
+  ["Tea / Coffee","Freshly prepared","₹ —"],
+  ["Cold Drink","Ask for available options","₹ —"],
+  ["Mineral Water","Bottled water","₹ —"]
+ ]
+};
+const grid=document.getElementById("menuGrid");
+function showMenu(category){
+ grid.innerHTML="";
+ menu[category].forEach(item=>{
+  const el=document.createElement("article");el.className="menu-item";
+  const info=document.createElement("div");
+  const h=document.createElement("h3");h.textContent=item[0];
+  const p=document.createElement("p");p.textContent=item[1];
+  const price=document.createElement("span");price.className="price";price.textContent=item[2];
+  info.append(h,p);el.append(info,price);grid.append(el);
+ });
+}
+document.querySelectorAll(".tab").forEach(button=>button.addEventListener("click",()=>{
+ document.querySelectorAll(".tab").forEach(b=>b.classList.remove("active"));
+ button.classList.add("active");showMenu(button.dataset.category);
+}));
+showMenu("starters");
+
+/* BEFORE PUBLISHING: replace these placeholders with the hotel's real details. */
+const HOTEL_PHONE = "";       // Example: +919876543210
+const WHATSAPP_NUMBER = "";   // Country code + number, digits only
+const GOOGLE_REVIEW_URL = ""; // Paste the hotel's Google review link
+const ADDRESS = "";           // Add the full hotel address
+if(HOTEL_PHONE) document.getElementById("callLink").href="tel:"+HOTEL_PHONE;
+if(WHATSAPP_NUMBER) document.getElementById("waLink").href="https://wa.me/"+WHATSAPP_NUMBER;
+if(GOOGLE_REVIEW_URL) document.getElementById("reviewLink").href=GOOGLE_REVIEW_URL;
+</script>
+</body>
+</html>
